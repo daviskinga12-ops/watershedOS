@@ -1,0 +1,38 @@
+# Environment
+.env
+.env.local
+*.pem
+GEE_SERVICE_ACCOUNT*.json
+
+# Python
+backend/venv/
+backend/.venv/
+**/__pycache__/
+**/*.py[cod]
+**/*.egg-info/
+.pytest_cache/
+.mypy_cache/
+*.egg
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.local
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Celery / logs
+celerybeat-schedule
+*.log
+
+# Data downloads (large)
+*.tif
+*.tiff
+nairobi_wards.geojson
+data/
